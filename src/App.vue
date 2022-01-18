@@ -1,28 +1,33 @@
 <template>
-  <Header/>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
-  <Footer class="footer" />
+  <Home/>
 </template>
 <script>
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue"
+import Footer from "./components/Footer.vue"
+import Todos from './components/Todos.vue'
+import Home from './views/Home.vue'
 export default {
   setup() {
-    
+    function eventUpHD(){
+      console.log('đay là app')
+    }
+
+    return{
+      eventUpHD
+    }
   
   },
   components: {
+    Home,
     Header,
-    Footer
+    Footer,
+    Todos
   }
 }
 
 </script>
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
