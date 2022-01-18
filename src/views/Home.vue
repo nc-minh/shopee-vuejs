@@ -1,12 +1,13 @@
 <template>
   <div class="home">
-    <h1 class="text-purple-800">Heloo</h1>
-    <i class="fa fa-cog" aria-hidden="true"></i>
+    <img alt="Vue logo" src="../assets/logo.png">
+    <h1>đây là trang chủ</h1>
   </div>
 </template>
 
 <script>
-export default {
 
+export default {
+  
 }
 </script>

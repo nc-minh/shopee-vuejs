@@ -1,4 +1,4 @@
-# shopee_vuejs_mbm
+# shopee-vuejs
 
 ## Project setup
 ```

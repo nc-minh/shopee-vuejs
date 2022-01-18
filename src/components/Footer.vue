@@ -1,10 +1,10 @@
 <template>
-  <h1>đây là trang bị lỗi</h1>
+  <h1>đây là footer</h1>
 </template>
 
 <script>
 export default {
-
+    name: 'Footer'
 }
 </script>
 
