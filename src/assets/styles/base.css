@@ -5,6 +5,8 @@
     --black-color: #000;
     --text-color: #333;
     --text-white-color: #fdf3ff;
+    --text-white-hover-color: hsla(0,0%,100%,.7);
+    --line-primary-color: #f86c5c;
     --border-color: #dbdbdb;
     --star-gold-color: #ffce3e;
 
