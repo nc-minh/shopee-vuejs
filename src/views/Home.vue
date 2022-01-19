@@ -1,12 +1,21 @@
 <template>
-  <HeaderHome/>
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png">
+  </div>
 </template>
 
 <script>
-import HeaderHome from '../components/HeaderHome.vue'
+// @ is an alias to /src
+
+import IndexLayout from "@/layouts/IndexLayout.vue"
+import LoginLayout from "../layouts/LoginLayout.vue"
+
 export default {
+  name: 'Home',
   components: {
-    HeaderHome
+  },
+  created() {
+    this.$emit("update:layout", IndexLayout)
   }
 }
 </script>

@@ -1,56 +1,30 @@
 <template>
-  <Home/>
+  <component :is="layout">
+      <router-view/>
+    </component>
 </template>
+
 <script>
-import Header from "./components/Header.vue"
-import Footer from "./components/Footer.vue"
-import Todos from './components/Todos.vue'
-import Home from './views/Home.vue'
+import { useRoute } from 'vue-router'
+import { computed } from 'vue'
+import { PUBLIC_LAYOUT } from '../src/constants/index'
 export default {
   setup() {
-    function eventUpHD(){
-      console.log('đay là app')
-    }
-
+    const route = useRoute()
+    console.log(route)
     return{
-      eventUpHD
+      layout: computed(() => route.meta.layout || PUBLIC_LAYOUT)
     }
-  
-  },
-  components: {
-    Home,
-    Header,
-    Footer,
-    Todos
   }
 }
-
 </script>
-<style>
 
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-.footer{
-  position: fixed;
-  bottom: 0;
 }
 </style>

@@ -9,7 +9,7 @@
             <a href="/" class="header__nav__link">Trở Thành Người Bán Shopee</a>
           </li>
           <li class="header__nav__item px-5">
-            <a href="/" class="header__nav__link">Tải Ứng Dụng</a>
+            <router-link class="header__nav__link" to="/">Tải Ứng Dụng</router-link>
           </li>
           <li class="header__nav__item px-5">
             <a href="/" class="header__nav__link">Kết Nối</a>
