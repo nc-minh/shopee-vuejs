@@ -14,14 +14,14 @@
     <div class="header__bottom__search flex-1">
         <div class="header__bottom__wrapper flex items-center w-full bg-white h-16 rounded">
             <div class="header__bottom__searchbar flex-1 h-full rounded">
-                <input type="text" name="" id="" class="header__bottom__searchbar__input h-full w-full text-2xl px-6 border-none outline-none rounded">
+                <input type="text" name="" id="" placeholder="VOUCHECR MALL 50K" class="header__bottom__searchbar__input h-full w-full text-2xl px-6 border-none outline-none rounded">
             </div>
-            <button class="header__bottom__searchbar__btn h-14 w-24 bg-primary-color mr-1 rounded">
-                <i class="fab fa-facebook"></i>
+            <button class="header__bottom__searchbar__btn h-14 w-24 bg-primary-color mr-1 rounded text-2xl">
+              <i class="far fa-search text-text-white-color"></i>
             </button>
         </div>
         <div class="header__bottom__topsearch mt-1">
-            <ul class="header__bottom__topsearch__list flex h-10 items-center text-text-white-hover-color">
+            <ul class="header__bottom__topsearch__list flex h-10 items-center text-text-white-color">
                 <li class="header__bottom__topsearch__item pr-5">
                     <a href="" class="header__bottom__topsearch__link text-xl">Túi Xách Nữ</a>
                 </li>
@@ -68,6 +68,10 @@ export default {
 .header__bottom__cart{
     width: 13.8rem;
     height: 5.9rem;
+}
+
+.header__bottom__topsearch__link:hover{
+  color: var(--text-white-hover-color);
 }
 
 </style>>

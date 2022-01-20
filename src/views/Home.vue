@@ -1,18 +1,17 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div class="home bg-bg">
+    <HomeBanner/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 import IndexLayout from "@/layouts/IndexLayout.vue"
-import LoginLayout from "../layouts/LoginLayout.vue"
+import HomeBanner from '../components/banners/HomeBanner.vue'
 
 export default {
   name: 'Home',
   components: {
+    HomeBanner
   },
   created() {
     this.$emit("update:layout", IndexLayout)

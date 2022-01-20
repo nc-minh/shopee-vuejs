@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-      <nav class="header__nav flex justify-between py-3 w-1200 m-auto">
+      <nav class="header__nav flex justify-between items-center py-3 w-1200 m-auto">
         <ul class="header__nav__list header__nav__list__left flex items-center text-xl">
           <li class="header__nav__item px-4">
             <router-link class="header__nav__link" to="/about">Kênh Người Bán</router-link>
@@ -27,18 +27,20 @@
         <ul class="header__nav__list flex items-center text-xl">
           <li class="header__nav__item px-4">
             <a href="/" class="header__nav__link">
-              <i class="fal fa-bell"></i>
-            Thông Báo</a>
+              <i class="fal fa-bell text-2xl"></i>
+              <span class="pl-2">Thông Báo</span>
+            </a>
           </li>
           <li class="header__nav__item px-4">
             <a href="/" class="header__nav__link">
-              <i class="fal fa-question-circle"></i>
-               Hỗ trợ</a>
+              <i class="fal fa-question-circle text-2xl"></i>
+               <span class="pl-2">Hỗ trợ</span>
+            </a>
           </li>
           <li class="header__nav__item px-4">
             <a href="/" class="header__nav__link flex items-center">
               <i class="fal fa-globe text-2xl"></i>
-                <span class="px-2">Tiếng Việt</span>
+                <span class="px-2 header__nav__item__connect">Tiếng Việt</span>
               <i class="far fa-angle-down text-2xl"></i>
             </a>
           </li>
@@ -50,16 +52,16 @@
           </li>
         </ul>
       </nav>
-      <HeaderSearch class="w-1200 m-auto"/>
+      <SearchHeader class="w-1200 m-auto"/>
   </header>
 </template>
 
 <script>
-import HeaderSearch from './HeaderSearch.vue'
+import SearchHeader from './SearchHeader.vue'
 export default {
   name: 'HeaderHome',
   components: {
-    HeaderSearch
+    SearchHeader
   }
 }
 </script>
