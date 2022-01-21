@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1200 m-auto pt-10">
+    <div class="pt-10">
         <CarouselBanner/>
         <OptionBanner/>
         <SimpleBanner/>

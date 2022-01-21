@@ -1,5 +1,5 @@
 <template>
-  <div class="category w-1200 m-auto mt-10 bg-white">
+  <div class="category mt-10 bg-white">
     <div class="category__top h-24 flex items-center border-b-2 border-solid">
       <div class="category__top__text ml-8 text-3xl">DANH MỤC</div>
     </div>

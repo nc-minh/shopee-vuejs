@@ -1,5 +1,5 @@
 <template>
-  <div class="flash-sale w-1200 m-auto mt-8 bg-white">
+  <div class="flash-sale mt-8 bg-white">
       <div class="flash-sale__header flex justify-between items-center h-24 px-8">
           <div class="flash-sale__header__title h-full">
               <div class="flash-sale__header__title__wrapper flex justify-center items-center h-full">

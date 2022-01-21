@@ -113,7 +113,7 @@ export default {
 }
 
 .flash-sale__caroudel__item--link{
-    background-color: #ddd8d8;
+    /* background-color: #ddd8d8; */
 }
 
 .flash-sale__caroudel__item__price--progress{
