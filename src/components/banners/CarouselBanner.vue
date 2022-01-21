@@ -61,16 +61,16 @@ export default {
       ]
 
     var quantity = sliderContent.length
-      const length = quantity * 100
-      var width = `width: ${length}%;`
+    const length = quantity * 100
+    var width = `width: ${length}%;`
 
 
-      return{
-          sliderContent,
-          length,
-          width,
-          quantity
-      }
+    return{
+        sliderContent,
+        length,
+        width,
+        quantity
+    }
 
   },
   methods: {

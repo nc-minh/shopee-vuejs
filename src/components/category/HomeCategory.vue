@@ -130,11 +130,6 @@ export default {
       },
     ];
 
-    const options = {
-      rewind: true,
-      gap: "1rem",
-    };
-
     return {
       list
     };
@@ -142,10 +137,10 @@ export default {
   methods: {
     url: function (url) {
       return `background-image: url(${url});`;
-    },
+    }
   },
   components: {
-
+      
   },
 };
 </script>

@@ -8,9 +8,11 @@ module.exports = {
       },
       colors: {
         'primary-color': '#ee4d2d',
+        'primary-f1-color': '#ffbda6',
         'text-white-color': '#fdf3ff',
         'text-white-hover-color': 'hsla(0,0%,100%,.7)',
-        'bg': '#f5f5f5'
+        'bg': '#f5f5f5',
+        'yellow-color': '#ffd839'
       },
       flex: {
         '2': '2 1 0px',
