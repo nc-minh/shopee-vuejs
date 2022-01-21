@@ -12,14 +12,15 @@ module.exports = {
         'text-white-color': '#fdf3ff',
         'text-white-hover-color': 'hsla(0,0%,100%,.7)',
         'bg': '#f5f5f5',
-        'yellow-color': '#ffd839'
+        'yellow-color': '#ffd839',
+        'red-color': '#af0408'
       },
       flex: {
         '2': '2 1 0px',
         '1': '1 1 0px',
         '50%': '1 1 50%'
       }
-    },
+    }
   },
   plugins: [],
 }

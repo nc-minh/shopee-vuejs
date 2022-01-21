@@ -56,8 +56,8 @@ export default {
     },
     methods: {
         url: function(url){
-        return `background-image: url(${url});`
-    }
+            return `background-image: url(${url});`
+        }
     }
 }
 </script>
