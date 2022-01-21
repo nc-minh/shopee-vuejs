@@ -29,3 +29,7 @@ html {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+.mx-w-1200{
+    max-width: 1200px;
+}

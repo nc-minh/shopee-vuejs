@@ -129,14 +129,13 @@ export default {
 }
 
 .carousel-banner__item__image {
-  background-image: url("../../assets/images/banner0.png");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 .sub-banner__item__img{
-    background-image: url("../../assets/images/sub-banner0.png");
+    background-image: url("../../../assets/images/sub-banner0.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
