@@ -1,13 +1,16 @@
 <template>
-    <HeaderHome/>
+    <HomeHeader/>
     <slot/>
+    <HomeFooter/>
 </template>
 
 <script>
-import HeaderHome from '../components/headers/HomeHeader.vue'
+import HomeHeader from '../components/home-header/HomeHeader.vue'
+import HomeFooter from '../components/home-footer/HomeFooter.vue'
 export default {
   components: {
-    HeaderHome
+    HomeHeader,
+    HomeFooter
   }
 }
 </script>

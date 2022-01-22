@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-      <nav class="header__nav flex justify-between items-center py-3 w-1200 m-auto">
+      <nav class="header__nav mx-w-1200 flex justify-between items-center py-3 m-auto">
         <ul class="header__nav__list header__nav__list__left flex items-center text-xl">
           <li class="header__nav__item px-4">
             <router-link class="header__nav__link" to="/about">Kênh Người Bán</router-link>
@@ -52,7 +52,7 @@
           </li>
         </ul>
       </nav>
-      <SearchHeader class="w-1200 m-auto"/>
+      <SearchHeader class="mx-w-1200 m-auto"/>
   </header>
 </template>
 
