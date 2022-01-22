@@ -24,6 +24,8 @@
           </a>
       </div>
   </section>
+
+  <button class="see-more px-52 py-4 bg-white text-2xl my-8">Xem Thêm</button>
 </template>
 
 <script>
@@ -156,7 +158,7 @@ export default {
                 mall: false,
                 price: '35.000đ',
                 sold: '8,8k'
-            },
+            }
         ]
 
         return{
@@ -251,4 +253,12 @@ export default {
     border-color: #ffd839 #ffd839 transparent #ffd839;
 }
 
+
+.see-more{
+    border: 1px solid #ddd;
+}
+
+.see-more:hover{
+    background: rgba(0,0,0,.02);
+}
 </style>
