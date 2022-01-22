@@ -2,7 +2,7 @@
     <div class="search-trends bg-white mt-8">
         <div class="search-trends__header h-24 flex items-center justify-between px-8 text-primary-color">
             <div class="search-trends__header--title text-3xl text-gray-600">XU HƯỚNG TÌM KIẾM</div>
-            <button class="search-trends__header--btn text-xl">
+            <button class="search-trends__header--btn text-2xl">
                 <i class="far fa-sync"></i>
                 Xem Thêm
             </button>
