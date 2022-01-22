@@ -8,6 +8,7 @@
       <Mall/>
       <SearchTrends/>
       <SearchTop/>
+      <Products/>
     </div>
   </div>
 </template>
@@ -20,6 +21,7 @@ import MutilSimpleBanner from '../components/home/banners/Mutil-SimpleBanner.vue
 import Mall from '../components/home/banners/Mall.vue'
 import SearchTrends from '../components/home/search-trends/SearchTrends.vue'
 import SearchTop from '../components/home/search-top/SearchTop.vue'
+import Products from '../components/home/products/Products.vue'
 export default {
   name: 'Home',
   components: {
@@ -29,7 +31,8 @@ export default {
     MutilSimpleBanner,
     Mall,
     SearchTrends,
-    SearchTop
+    SearchTop,
+    Products
   }
 }
 </script>
