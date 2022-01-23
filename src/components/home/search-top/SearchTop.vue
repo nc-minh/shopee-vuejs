@@ -11,7 +11,7 @@
       <div class="search-top__contains">
           <div class="search-top__contains__wrapper overflow-hidden">
               <ul :style="width(widthCarousel)" class="search-top__contains__list flex">
-                  <li v-for="(item, index) in data" :key="index" class="search-top__contains__item w-1/6 bg-white">
+                  <li v-for="(item, index) in data" :key="index" class="search-top__contains__item w-1/6 bg-white text-center">
                       <a href="/" class="search-top__contains--link relative flex flex-col w-full h-full p-8">
                         <div class="search-top__contains__item-top flex flex-col justify-center items-center h-3/4 relative">
                             <div :style="url(item.url)" class="search-top__contains__item-top__img h-full w-4/5 bg-cover bg-no-repeat bg-center"></div>

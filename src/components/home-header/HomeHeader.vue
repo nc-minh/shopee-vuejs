@@ -45,10 +45,10 @@
             </a>
           </li>
           <li class="header__nav__item header__nav__item__line px-3">
-            <a href="/" class="header__nav__link">Đăng Ký</a>
+            <router-link class="header__nav__link" to="/register">Đăng Ký</router-link>
           </li>
           <li class="header__nav__item pl-3">
-            <a href="/" class="header__nav__link">Đăng Nhập</a>
+            <router-link class="header__nav__link" to="/login">Đăng Nhập</router-link>
           </li>
         </ul>
       </nav>

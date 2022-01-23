@@ -1,7 +1,7 @@
 <template>
   <div class="header__bottom flex items-center justify-center py-6">
     <div class="header__bottom__logo pr-16 relative top-0">
-      <a class="header__bottom__logo__link" href="">
+      <a class="header__bottom__logo__link" href="/">
         <svg viewBox="0 0 192 65" class="header__bottom__logo__icon">
           <g fill-rule="evenodd">
             <path

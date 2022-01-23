@@ -1,7 +1,7 @@
 <template>
     <div class="option-banner mt-4 bg-white">
         <ul class="option-banner__list flex justify-between items-center">
-            <li v-for="(item, index) in list" :key="index" class="option-banner__item h-full">
+            <li v-for="(item, index) in list" :key="index" class="option-banner__item h-full text-center">
                 <a href="/" class="option-banner__item__link h-full flex flex-col justify-center items-center">
                     <div :style="url(item.url)" class="option-banner__item__img bg-cover my-4"></div>
                     <span class="option-banner__item__text flex-1 px-2 text-xl">{{ item.text }}</span>
