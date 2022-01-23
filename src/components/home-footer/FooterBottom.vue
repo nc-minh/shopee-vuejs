@@ -15,7 +15,7 @@
           </div>
       </div>
       <div class="footer-bottom__item pb-5">
-          <a target="_blank" href="https://github.com/nc-minh/shopee-vuejs">
+          <a class="hover:text-primary-color" target="_blank" href="https://github.com/nc-minh/shopee-vuejs">
             <i class="fab fa-github text-7xl"></i>
           </a>
       </div>
