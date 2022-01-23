@@ -13,7 +13,8 @@ module.exports = {
         'text-white-hover-color': 'hsla(0,0%,100%,.7)',
         'bg': '#f5f5f5',
         'yellow-color': '#ffd839',
-        'red-color': '#af0408'
+        'red-color': '#af0408',
+        'text-gray-color': 'rgba(0,0,0,.54)'
       },
       flex: {
         '2': '2 1 0px',

@@ -38,11 +38,13 @@
     <div class="bg-bg">
         <FooterContact class="mx-w-1200 m-auto"/>
     </div>
+    <FooterBottom class="mx-w-1200 m-auto"/>
   </div>
 </template>
 
 <script>
 import FooterContact from './FooterContact.vue'
+import FooterBottom from './FooterBottom.vue'
 export default {
     name: 'HomeFooter',
     setup(){
@@ -789,7 +791,8 @@ export default {
       }
     },
     components: {
-      FooterContact
+      FooterContact,
+      FooterBottom
     }
 }
 </script>
@@ -820,5 +823,9 @@ export default {
   background-color: rgb(173, 172, 172);
   right: 0;
   margin: 0 .3rem;
+}
+
+.footer__category__wrapper-contains__link:last-child::before{
+  display: none;
 }
 </style>
