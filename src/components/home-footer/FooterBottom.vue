@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-bottom text-text-gray-color pb-10">
+  <div class="footer-bottom text-text-gray-color pb-10 text-center">
       <div class="footer-bottom__header flex justify-center items-center text-xl py-10">
           <div class="footer-bottom__header__item px-2">
               <a href="/" class="footer-bottom__header--link">CHÍNH SÁCH BẢO MẬT</a>

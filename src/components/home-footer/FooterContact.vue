@@ -64,7 +64,7 @@
           </li>
       </ul>
 
-      <div class="footer-contact__area flex justify-between py-16">
+      <div class="footer-contact__area flex justify-between py-16 text-center">
           <div class="footer-contact__area-left mr-10">&copy; 2022 Shopee. Tất cả các quyền được bảo lưu.</div>
           <div class="footer-contact__area-right flex flex-wrap justify-center">
               <div class="footer-contact__area-right__name text-right">Quốc gia &amp; Khu vực:</div>

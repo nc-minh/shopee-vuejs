@@ -9,7 +9,7 @@
                           <div class="flash-sale__caroudel__item__price--text text-3xl">{{ item.price }} Đ</div>
                           <div class="flash-sale__caroudel__item__price--progress rounded-3xl bg-primary-f1-color overflow-hidden relative">
                               <div :style="widthProgress(item.sold)" class="flash-sale__caroudel__item__price--progress-bar h-full bg-primary-color"></div>
-                              <span class="flash-sale__caroudel__item__price--progress__text absolute">{{ item.sold }}%</span>
+                              <span class="flash-sale__caroudel__item__price--progress__text absolute text-center">{{ item.sold }}%</span>
                           </div>
                       </div>
 

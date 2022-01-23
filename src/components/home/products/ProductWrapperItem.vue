@@ -1,7 +1,7 @@
 <template>
   <section class="wrapper flex flex-wrap mt-2">
       <div v-for="(item, index) in data" :key="index" class="wrapper__item w-1/6 px-2 mb-4">
-          <a href="/" class="wrapper__link h-full w-full flex flex-col items-center bg-white relative">
+          <a href="/" class="wrapper__link h-full w-full flex flex-col items-center bg-white relative text-center">
             <div :style="url(item.url)" class="wrapper__item__img w-full h-4/6 bg-top bg-cover bg-no-repeat"></div>
             <div class="wrapper__item__bottom flex-1 flex flex-col px-4 pb-4">
                 <h3 class="wrapper__item__bottom__name flex-1 py-2 text-2xl text-left">{{ item.name }}</h3>

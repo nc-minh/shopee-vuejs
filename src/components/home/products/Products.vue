@@ -1,5 +1,5 @@
 <template>
-  <div class="products mt-8">
+  <div class="products mt-8 text-center">
       <div class="products__header flex pl-8 h-24 text-primary-color bg-white">
           <h2 class="products__header__text text-3xl">GỢI Ý HÔM NAY</h2>
       </div>

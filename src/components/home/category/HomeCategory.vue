@@ -6,7 +6,7 @@
 
     <div class="category__wrapper overflow-hidden">
       <ul class="category__wrapper__list flex">
-        <li v-for="(item, index) in list" :key="index" class="category__wrapper__item">
+        <li v-for="(item, index) in list" :key="index" class="category__wrapper__item text-center">
           <a href="" class="
               category__wrapper__link
               flex flex-col
@@ -18,7 +18,7 @@
               class="category__wrapper__link__img bg-contain bg-no-repeat"
               :style="url(item.url1)"
             ></div>
-            <div class="category__wrapper__link__text flex-1 text-xl">
+            <div class="category__wrapper__link__text flex-1 text-xl px-1">
               {{ item.text1 }}
             </div>
           </a>
@@ -35,7 +35,7 @@
               class="category__wrapper__link__img bg-contain bg-no-repeat"
               :style="url(item.url2)"
             ></div>
-            <div class="category__wrapper__link__text flex-1 text-xl">
+            <div class="category__wrapper__link__text flex-1 text-xl px-1">
               {{ item.text2 }}
             </div>
           </a>

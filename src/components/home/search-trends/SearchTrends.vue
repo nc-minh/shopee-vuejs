@@ -12,7 +12,7 @@
             <ul class="search-trends__contains__list w-full flex flex-wrap">
                 <li v-for="(item, index) in data" :key="index" class="search-trends__contains__item">
                     <a href="/" class="search-trends__contains--link h-full w-full flex items-center">
-                        <div class="search-trends__contains__content flex-13">
+                        <div class="search-trends__contains__content flex-13 text-center">
                             <div class="search-trends__contains__content__name text-2xl">{{ item.name }}</div>
                             <div class="search-trends__contains__content__quantity text-xl text-gray-400">{{ item.quantity }}</div>
                         </div>
