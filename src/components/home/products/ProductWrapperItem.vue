@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper flex flex-wrap">
+  <section class="wrapper flex flex-wrap mt-2">
       <div v-for="(item, index) in data" :key="index" class="wrapper__item w-1/6 px-2 mb-4">
           <a href="/" class="wrapper__link h-full w-full flex flex-col items-center bg-white relative">
             <div :style="url(item.url)" class="wrapper__item__img w-full h-4/6 bg-top bg-cover bg-no-repeat"></div>
