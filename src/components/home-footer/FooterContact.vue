@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-contact pt-20">
+  <div class="footer-contact pt-20 mx-w-1200 m-auto">
       <ul class="footer-contact__list flex pb-14">
           <li class="footer-contact__item w-1/5">
               <h5 class="footer-contact__name mb-4">CHĂM SÓC KHÁCH HÀNG</h5>
