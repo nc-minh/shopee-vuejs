@@ -22,7 +22,8 @@ const routes = [
     path: '/register',
     name: 'Register',
     meta: {
-      layout: 'RegisterLayout'
+      layout: 'RegisterLayout',
+      title: 'Register'
     },
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -33,7 +34,8 @@ const routes = [
     path: '/login',
     name: 'Login',
     meta: {
-      layout: 'RegisterLayout'
+      layout: 'RegisterLayout',
+      title: 'Login'
     },
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -45,6 +47,11 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || 'Shopee'
+  next()
 })
 
 export default router

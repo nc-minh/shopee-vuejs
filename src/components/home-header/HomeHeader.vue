@@ -45,10 +45,10 @@
             </a>
           </li>
           <li class="header__nav__item header__nav__item__line px-3">
-            <router-link class="header__nav__link" to="/register">Đăng Ký</router-link>
+            <router-link @click="setTitleRegister('Đăng ký')" class="header__nav__link" to="/register">Đăng Ký</router-link>
           </li>
           <li class="header__nav__item pl-3">
-            <router-link class="header__nav__link" to="/login">Đăng Nhập</router-link>
+            <router-link @click="setTitleRegister('Đăng Nhập')" class="header__nav__link" to="/login">Đăng Nhập</router-link>
           </li>
         </ul>
       </nav>
@@ -58,11 +58,15 @@
 
 <script>
 import SearchHeader from './SearchHeader.vue'
+import { mapMutations, mapGetters } from 'vuex'
 export default {
   name: 'HeaderHome',
   components: {
     SearchHeader
-  }
+  },
+  methods: {
+        ...mapMutations(['setTitleRegister'])
+    },
 }
 </script>
 

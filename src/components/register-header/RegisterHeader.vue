@@ -20,10 +20,17 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+import { useRoute } from 'vue-router'
+import { onBeforeMount } from 'vue'
 export default {
     name: 'RegisterHeader',
-    setup(){
-      var title = 'Đăng ký'
+    computed: {
+      ...mapGetters(['getTitleRegister'])
+    },
+    setup() {
+      const route = useRoute()
+      var title = route.meta.title
 
       return{
         title
