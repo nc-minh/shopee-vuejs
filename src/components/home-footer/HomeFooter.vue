@@ -35,16 +35,12 @@
         </ul>
       </div>
     </div>
-    <div class="bg-bg">
-        <FooterContact class="mx-w-1200 m-auto"/>
-    </div>
-    <FooterBottom class="mx-w-1200 m-auto"/>
+    <FooterWrapper/>
   </div>
 </template>
 
 <script>
-import FooterContact from './FooterContact.vue'
-import FooterBottom from './FooterBottom.vue'
+import FooterWrapper from './FooterWrapper.vue'
 export default {
     name: 'HomeFooter',
     setup(){
@@ -791,8 +787,7 @@ export default {
       }
     },
     components: {
-      FooterContact,
-      FooterBottom
+      FooterWrapper
     }
 }
 </script>

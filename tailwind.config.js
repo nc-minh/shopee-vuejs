@@ -16,6 +16,7 @@ module.exports = {
         'red-color': '#af0408',
         'text-gray-color': 'rgba(0,0,0,.54)',
         'text-gray-color-f1': '#ccc',
+        'text-gray-color-f2': '#888',
       },
       flex: {
         '2': '2 1 0px',

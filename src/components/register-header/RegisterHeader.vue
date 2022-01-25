@@ -22,7 +22,6 @@
 <script>
 import { mapGetters } from 'vuex'
 import { useRoute } from 'vue-router'
-import { onBeforeMount } from 'vue'
 export default {
     name: 'RegisterHeader',
     computed: {

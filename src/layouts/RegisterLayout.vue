@@ -1,21 +1,15 @@
 <template>
-    <!-- <RegisterHeader/> -->
     <slot/>
-    <FooterContact/>
-    <FooterBottom/>
+    <FooterWrapper/>
 </template>
 
 <script>
 import HomeFooter from '../components/home-footer/HomeFooter.vue'
-// import RegisterHeader from '../components/register-header/RegisterHeader.vue'
-import FooterContact from '../components/home-footer/FooterContact.vue'
-import FooterBottom from '../components/home-footer/FooterBottom.vue'
+import FooterWrapper from '../components/home-footer/FooterWrapper.vue'
 export default {
   components: {
     HomeFooter,
-    // RegisterHeader,
-    FooterContact,
-    FooterBottom
+    FooterWrapper,
   }
 }
 </script>
