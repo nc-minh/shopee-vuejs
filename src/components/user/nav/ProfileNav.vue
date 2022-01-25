@@ -34,18 +34,18 @@
           </li>
           <li class="profile-nav__item">
               <div :class="{'dropdown--open': bindClass(1)}" class="profile-nav__item-header py-4">
-                  <span href="/" class="profile-nav__item-header--link" @click="setSelectedItem(1), CloseDropDown()">
+                  <router-link to="/404" class="profile-nav__item-header--link" @click="setSelectedItem(1), CloseDropDown()">
                     <i class="far fa-clipboard-list mr-2 text-blue-700"></i>
                     <span>Đơn Mua</span>
-                  </span>
+                  </router-link>
               </div>
           </li>
           <li class="profile-nav__item">
               <div :class="{'dropdown--open': bindClass(2)}" class="profile-nav__item-header py-4">
-                  <span href="/" class="profile-nav__item-header--link" @click="openNotify(), setSelectedItem(2)">
+                  <router-link to="/404" class="profile-nav__item-header--link" @click="openNotify(), setSelectedItem(2)">
                     <i class="fal fa-bell mr-2 text-blue-700"></i>
                     <span>Thông Báo</span>
-                  </span>
+                  </router-link>
               </div>
               <div v-if="isNotify" class="profile-nav__item-dropdown flex flex-col pl-8">
                   <div :class="{'dropdown--open': isSelectedNotify == index}" v-for="(item, index) in notify" :key="index" @click="setSelectedNotify(index)" class="profile-nav__item-dropdown--link py-2">{{ item }}</div>
@@ -53,18 +53,18 @@
           </li>
           <li class="profile-nav__item">
               <div :class="{'dropdown--open': bindClass(3)}" class="profile-nav__item-header py-4">
-                  <span href="/" class="profile-nav__item-header--link" @click="setSelectedItem(3), CloseDropDown()">
+                  <router-link to="/404" class="profile-nav__item-header--link" @click="setSelectedItem(3), CloseDropDown()">
                     <i class="fal fa-credit-card-front mr-2 text-blue-700"></i>
                     <span>Kho Voucher</span>
-                  </span>
+                  </router-link>
               </div>
           </li>
           <li class="profile-nav__item">
-              <div :class="{'dropdown--open': bindClass(4)}" class="profile-nav__item-header py-4" @click="setSelectedItem(4), CloseDropDown()">
-                  <span href="/" class="profile-nav__item-header--link">
+              <div :class="{'dropdown--open': bindClass(4)}" class="profile-nav__item-header py-4">
+                  <router-link to="/404" class="profile-nav__item-header--link" @click="setSelectedItem(4), CloseDropDown()">
                     <i class="far fa-usd-circle mr-2 text-blue-700"></i>
                     <span>Shopee Xu</span>
-                  </span>
+                  </router-link>
               </div>
           </li>
       </ul>

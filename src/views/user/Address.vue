@@ -1,5 +1,9 @@
 <template>
-  <h1>đây là địa chỉ</h1>
+  <div class="address bg-white p-8">
+    <div class="address__header pb-8">
+      <h2 class="address__header-title text-3xl">Địa Chỉ Của Tôi</h2>
+    </div>
+  </div>
 </template>
 
 <script>
