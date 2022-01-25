@@ -21,8 +21,8 @@
         </div>
       </div>
 
-      <div class="profile__right pl-32">
-        <div class="profile__right__avatar flex flex-col items-center justify-center">
+      <div class="profile__right">
+        <div class="profile__right__avatar flex flex-col items-center justify-center px-20">
           <div :style="url(imgUrl)" class="profile__right__img h-40 w-40 rounded-full bg-cover"></div>
           <button class="profile__right__btn my-4">Chọn Ảnh</button>
           <div class="profile__right__note">Dung lượng file tối đa 1 MB</div>
