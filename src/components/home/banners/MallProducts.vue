@@ -101,4 +101,36 @@ export default {
     top: 0;
     bottom: 0;
 }
+
+@media (max-width: 1223px){
+    .mall-products__banner{
+        flex: 1;
+    }
+
+    .mall-products__contains{
+        flex: 1;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .mall-products{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .mall-products__banner{
+        padding: 0 1rem;
+        width: 40rem;
+        margin: auto;
+    }
+    
+}
+
+/* mobile low */
+@media (max-width: 420px){
+    .mall-products__banner{
+        width: 100%;
+    }
+}
 </style>

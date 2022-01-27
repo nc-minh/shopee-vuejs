@@ -81,4 +81,11 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .search-trends__contains__item{
+        width: 50%;
+    }
+}
 </style>

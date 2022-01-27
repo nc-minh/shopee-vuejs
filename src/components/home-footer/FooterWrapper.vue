@@ -1,8 +1,8 @@
 <template>
     <div class="bg-bg">
-        <FooterContact class="mx-w-1200 m-auto"/>
+        <FooterContact class="mx-w-1200 w-984 m-auto"/>
     </div>
-    <FooterBottom class="mx-w-1200 m-auto"/>
+    <FooterBottom class="mx-w-1200 w-984 m-auto"/>
 </template>
 
 <script>

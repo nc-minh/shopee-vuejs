@@ -8,9 +8,9 @@
             </button>
       </div>
 
-      <div class="search-top__contains">
-          <div class="search-top__contains__wrapper overflow-hidden">
-              <ul :style="width(widthCarousel)" class="search-top__contains__list flex">
+      <div class="search-top__contains w-full">
+          <div class="search-top__contains__wrapper relative overflow-hidden w-full h-full">
+              <ul class="search-top__contains__list flex absolute">
                   <li v-for="(item, index) in data" :key="index" class="search-top__contains__item w-1/6 bg-white text-center">
                       <a href="/" class="search-top__contains--link relative flex flex-col w-full h-full p-8">
                         <div class="search-top__contains__item-top flex flex-col justify-center items-center h-3/4 relative">
@@ -92,8 +92,15 @@ export default {
     border-bottom: 1px solid #ddd;
 }
 
+.search-top__contains{
+    height: 29rem;
+}
+
 .search-top__contains__list{
     height: 29rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .search-top__contains__item-top__content{
@@ -126,5 +133,22 @@ export default {
     border-style: solid;
     bottom: -1.8rem;
     border-color: #ff7b39 transparent transparent transparent;
+}
+
+/* mobile & tablet */
+@media (max-width: 1223px){
+    .search-top__contains{
+        
+    }
+
+    .search-top__contains__item{
+        width: 20rem;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    
+    
 }
 </style>

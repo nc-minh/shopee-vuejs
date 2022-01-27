@@ -261,4 +261,26 @@ export default {
 .see-more:hover{
     background: rgba(0,0,0,.02);
 }
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .wrapper{
+        margin: 0 2rem;
+    }
+
+    .wrapper__item{
+        width: 25%;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .wrapper{
+        margin: 0 .5rem;
+    }
+
+    .wrapper__item{
+        width: 50%;
+    }
+}
 </style>

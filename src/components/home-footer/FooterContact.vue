@@ -1,6 +1,6 @@
 <template>
   <div class="footer-contact pt-20 mx-w-1200 m-auto">
-      <ul class="footer-contact__list flex pb-14">
+      <ul class="footer-contact__list flex flex-wrap pb-14">
           <li class="footer-contact__item w-1/5">
               <h5 class="footer-contact__name mb-4">CHĂM SÓC KHÁCH HÀNG</h5>
               <div class="footer-contact__item-wrapper flex flex-col items-start">
@@ -284,5 +284,33 @@ export default {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .footer-contact__item{
+        width: 33.33333%;
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .footer-contact__item-wrapper{
+        width: auto;
+    }
+    .footer-contact__item{
+        width: 50%;
+    }
+
+    .footer-contact__area{
+        flex-direction: column;
+    }
+
+    .footer-contact__area-left{
+        margin-bottom: 1rem;
+    }
+    
 }
 </style>
