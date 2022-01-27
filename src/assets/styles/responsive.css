@@ -26,9 +26,9 @@
 }
 
 /* PC - low quality */
-@media (min-width: 880px) and (max-width: 1223px){
+@media (max-width: 1223px){
     .w-984{
-        width: 984px;
+        max-width: 984px;
     }
 }
 

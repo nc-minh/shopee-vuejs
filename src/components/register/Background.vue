@@ -34,4 +34,12 @@ export default {
     width: 104rem;
     min-height: 60rem;
 }
+
+@media (max-width: 1100px){
+    .background__img{
+        justify-content: center;
+        width: 100%;
+    }
+    
+}
 </style>

@@ -313,4 +313,24 @@ export default {
     }
     
 }
+
+/* mobile */
+@media (max-width: 480px){
+    .footer-contact__item{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-contact__item-wrapper{
+        align-items: center;
+    }
+
+    .footer-contact__name{
+        text-align: center;
+    }
+
+    .footer-contact--link {
+        flex: 1;
+    }
+}
 </style>
