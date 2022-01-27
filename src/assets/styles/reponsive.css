@@ -1,0 +1,50 @@
+/* pc */
+@media (min-width: 881px){
+    
+}
+
+@media (min-width: 1024px){
+    .pc-none{
+        display: none;
+    }
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .m-t-none{
+        display: none;
+    }
+
+    .header{
+        height: 5.4rem;
+    }
+}
+
+/* mobile & mini tablet */
+@media (max-width: 880px){
+    
+
+}
+
+/* PC - low quality */
+@media (min-width: 880px) and (max-width: 1223px){
+    .w-984{
+        width: 984px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media (max-width: 739px){
+    
+    
+}
+
+/* mobile low */
+@media (max-width: 580px){
+    
+}

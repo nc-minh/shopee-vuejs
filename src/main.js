@@ -7,6 +7,7 @@ import './assets/fonts/fontawesome-pro-5.15.3-web/css/all.min.css'
 import './assets/styles/tailwind.css'
 import './assets/styles/base.css'
 import './assets/styles/grid.css'
+import './assets/styles/reponsive.css'
 
 import { registerGlobalComponents  } from './utils/import'
 
