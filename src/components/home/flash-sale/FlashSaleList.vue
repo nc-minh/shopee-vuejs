@@ -1,7 +1,7 @@
 <template>
   <div class="flash-sale__carousel">
-      <div class="flash-sale__caroudel__wrapper overflow-hidden">
-          <ul :style="width" class="flash-sale__caroudel__list flex">
+      <div class="flash-sale__caroudel__wrapper relative overflow-hidden">
+          <ul class="flash-sale__caroudel__list flex absolute">
               <li v-for="(item, index) in data" :key="index" class="flash-sale__caroudel__item relative">
                   <a href="" class="flash-sale__caroudel__item--link flex flex-col items-center justify-between h-full">
                       <div :style="url(item.url)" class="flash-sale__caroudel__item__img"></div>
@@ -95,8 +95,15 @@ export default {
 </script>
 
 <style scoped>
+.flash-sale__caroudel__wrapper{
+    height: 24rem;
+}
+
 .flash-sale__caroudel__list{
     transition: all 500ms ease 0s;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .flash-sale__caroudel__item{

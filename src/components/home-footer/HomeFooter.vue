@@ -1,6 +1,6 @@
 <template>
   <div class="footer-wrapper">
-    <div class="footer mx-w-1200 m-auto pb-20">
+    <div class="footer mx-w-1200 w-984 m-auto pb-20">
       <div class="footer__header flex flex-col items-start justify-center h-80">
         <h2 class="footer__header__title text-4xl font-semibold">SHOPEE - GÌ CŨNG CÓ, MUA HẾT Ở SHOPEE</h2>
         <p class="footer__header__description text-left text-xl py-4">Shopee - ứng dụng mua sắm trực tuyến thú vị,
@@ -35,16 +35,12 @@
         </ul>
       </div>
     </div>
-    <div class="bg-bg">
-        <FooterContact class="mx-w-1200 m-auto"/>
-    </div>
-    <FooterBottom class="mx-w-1200 m-auto"/>
+    <FooterWrapper/>
   </div>
 </template>
 
 <script>
-import FooterContact from './FooterContact.vue'
-import FooterBottom from './FooterBottom.vue'
+import FooterWrapper from './FooterWrapper.vue'
 export default {
     name: 'HomeFooter',
     setup(){
@@ -791,8 +787,7 @@ export default {
       }
     },
     components: {
-      FooterContact,
-      FooterBottom
+      FooterWrapper
     }
 }
 </script>
@@ -827,5 +822,22 @@ export default {
 
 .footer__category__wrapper-contains__link:last-child::before{
   display: none;
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .footer{
+      padding: 1rem 2rem;
+    }
+
+    .footer__category{
+      display: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    
+    
 }
 </style>

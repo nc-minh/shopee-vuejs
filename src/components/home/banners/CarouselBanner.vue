@@ -2,7 +2,7 @@
   <div class="full-carousel-banner flex">
     <div class="carousel-banner flex-2">
       <div class="carousel-banner__wrapper h-full overflow-hidden relative">
-        <button @click="prev(index)" class="carousel-banner__btn-prev">
+        <button class="carousel-banner__btn-prev">
             <i class="far fa-angle-left"></i>
         </button>
         <ul :style="width" class="carousel-banner__list flex h-full absolute top-0 bottom-0 left-0 right-0">
@@ -12,13 +12,13 @@
             </a>
           </li>
         </ul>
-        <button @click="next(index)" class="carousel-banner__btn-next">
+        <button class="carousel-banner__btn-next">
             <i class="far fa-angle-right"></i>
         </button>
       </div>
     </div>
 
-    <div class="sub-banner flex flex-col ml-2 flex-1">
+    <div class="sub-banner flex flex-col ml-2 flex-1 m-t-1023-none">
         <a href="" class="sub-banner__item flex-50% block">
             <div class="sub-banner__item__img h-full"></div>
         </a>
@@ -28,7 +28,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   name: "CarouselBanner",
@@ -76,34 +75,6 @@ export default {
   methods: {
     url: function(url){
         return `background-image: url(${url});`
-    },
-    next: function(index){
-
-        var width = this.widthSlider
-        
-        width += (index * 20)
-        console.log(width)
-
-        this.widthSlider = width
-        
-        const carouselBannerList = document.querySelector('.carousel-banner__list')
-        carouselBannerList.style.transform = `translateX(${width}%)`
-
-        this.index++
-    },
-    prev: function(index){
-        
-        var width = this.widthSlider
-
-        width -= (index * 20)
-        console.log(width)
-
-        this.widthSlider = width
-        
-        const carouselBannerList = document.querySelector('.carousel-banner__list')
-        carouselBannerList.style.transform = `translateX(${width}%)`
-
-        this.index--
     }
   }
 };

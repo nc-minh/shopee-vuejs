@@ -1,6 +1,6 @@
 <template>
   <div class="bg bg-bg">
-    <div class="home mx-w-1200 m-auto ">
+    <div class="home mx-w-1200 w-984 m-auto ">
       <HomeBanner/>
       <HomeCategory/>
       <FlashSale/>

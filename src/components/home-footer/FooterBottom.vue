@@ -1,6 +1,6 @@
 <template>
-  <div class="footer-bottom text-text-gray-color pb-10 text-center">
-      <div class="footer-bottom__header flex justify-center items-center text-xl py-10">
+  <div class="footer-bottom text-text-gray-color pb-10 text-center mx-w-1200 w-984 m-auto">
+      <div class="footer-bottom__header flex flex-wrap justify-center items-center text-xl py-10">
           <div class="footer-bottom__header__item px-2">
               <a href="/" class="footer-bottom__header--link">CHÍNH SÁCH BẢO MẬT</a>
           </div>
@@ -54,5 +54,18 @@ export default {
 
 .footer-bottom__header__item:last-child::after{
     display: none;
+}
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .footer-bottom{
+        padding: 0 1rem;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .footer-bottom__header__item{
+        margin-top: 1rem;
+    }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <header class="header mx-w-1200 m-auto flex justify-between h-32 items-center">
+  <header class="header mx-w-1200 w-984 m-auto flex justify-between h-32 items-center">
     <div class="header__group flex items-center">
       <div class="header__logo h-20 relative">
         <a class="" href="/">
@@ -20,10 +20,16 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+import { useRoute } from 'vue-router'
 export default {
     name: 'RegisterHeader',
-    setup(){
-      var title = 'Đăng ký'
+    computed: {
+      ...mapGetters(['getTitleRegister'])
+    },
+    setup() {
+      const route = useRoute()
+      var title = route.meta.title
 
       return{
         title
@@ -48,5 +54,12 @@ export default {
 
 .header__logo__icon{
   fill: var(--primary-color);
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .header{
+      margin: 1rem;
+    }
 }
 </style>>
