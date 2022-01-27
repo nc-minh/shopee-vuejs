@@ -1,5 +1,5 @@
 <template>
-  <header class="header mx-w-1200 m-auto flex justify-between h-32 items-center">
+  <header class="header mx-w-1200 w-984 m-auto flex justify-between h-32 items-center">
     <div class="header__group flex items-center">
       <div class="header__logo h-20 relative">
         <a class="" href="/">
@@ -54,5 +54,12 @@ export default {
 
 .header__logo__icon{
   fill: var(--primary-color);
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .header{
+      margin: 1rem;
+    }
 }
 </style>>

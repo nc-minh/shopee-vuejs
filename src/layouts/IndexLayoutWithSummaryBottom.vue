@@ -1,7 +1,7 @@
 <template>
     <HomeHeader/>
     <div class="bg-bg">
-      <div class="user-wrapper flex mx-w-1200 m-auto py-8">
+      <div class="user-wrapper flex mx-w-1200 w-984 m-auto py-8">
         <ProfileNav class="w-72"/>
         <div class="user-wrapper__content flex-1">
           <slot/>
