@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <div class="sub-banner flex flex-col ml-2 flex-1">
+    <div class="sub-banner flex flex-col ml-2 flex-1 m-t-1023-none">
         <a href="" class="sub-banner__item flex-50% block">
             <div class="sub-banner__item__img h-full"></div>
         </a>

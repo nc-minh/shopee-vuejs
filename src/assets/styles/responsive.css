@@ -11,7 +11,7 @@
 
 /* mobile & tablet */
 @media (max-width: 1023px){
-    .m-t-none{
+    .m-t-1023-none{
         display: none;
     }
 
@@ -23,7 +23,6 @@
 /* mobile & mini tablet */
 @media (max-width: 880px){
     
-
 }
 
 /* PC - low quality */

@@ -1,6 +1,6 @@
 <template>
     <div class="option-banner mt-4 bg-white">
-        <ul class="option-banner__list flex justify-between items-center">
+        <ul class="option-banner__list flex flex-wrap justify-between items-center">
             <li v-for="(item, index) in list" :key="index" class="option-banner__item h-full text-center">
                 <a href="/" class="option-banner__item__link h-full flex flex-col justify-center items-center">
                     <div :style="url(item.url)" class="option-banner__item__img bg-cover my-4"></div>
@@ -75,5 +75,12 @@ export default {
 .option-banner__item__img{
     width: 4.5rem;
     height: 4.5rem;
+}
+
+@media (max-width: 1023px){
+    .option-banner__list{
+    /* height: 20.16rem; */
+    height: auto;
+}
 }
 </style>
